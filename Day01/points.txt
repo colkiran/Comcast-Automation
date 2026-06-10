@@ -1,0 +1,133 @@
+1. Networking - ssh
+
+2. Cloud (AWS) boto3, workflows, lambdas
+
+3. CI / CD - Snowflake 
+
+4. Devops - log files
+
+5. bots 
+
+6. datasets and report generations
+
+7. logs to be pushed to sharepoint
+
+8. DB testing
+
+9. google adk
+
+--------------------------------------------------------------------------
+
+Data Structures
+---------------
+Strings
+
+Lists
+
+Tuples
+
+Dictionaries
+
+Sets and Frozensets
+
+
+Functions
+---------
+
+create a function
+
+call a function
+
+pass arguments to the function
+
+return values from a function
+
+pass by value / argument
+
+variable length arguments
+
+lambdas
+
+Nested functions
+
+Closures
+
+Decorators
+
+iterators
+
+Scope - local, non-local, global variables
+
+
+OOPS
+----
+Class, object
+inheritance
+operator overloading
+polymorphism
+abstraction
+encapsulation
+
+
+
+Packages and Modules
+--------------------
+what are modules 
+creating modules
+
+what are packages
+how to create a package
+
+how to use modules in our code
+
+------------------------------------------------------------------------------
+
+Closures
+--------
+nested functions - function inside another function
+
+
+def outerFun():
+
+   def innerFun():
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------Python‑Based Automation is a practical, hands‑on learning experience designed for professionals who want to streamline tasks, reduce manual effort, and build scalable automation solutions using Python. The course begins with a focused refresher on Python fundamentals and quickly advances into real‑world automation use cases across systems, web applications, APIs, databases, testing, and DevOps environments.
+ 
+Learners explore system and OS automation, including file management, job scheduling concepts, environment variables, and process execution. The course then moves into web automation and scraping using browser‑based tools and libraries, followed by API automation covering authentication, data parsing, and reusable automation frameworks.
+ 
+Additional modules introduce DevOps automation with Python, including CI/CD concepts, container automation, and infrastructure basics, as well as database automation for common relational databases. Learners also gain exposure to Python‑based test automation frameworks, RPA concepts for automating repetitive business tasks, and secure coding and best practices for building maintainable automation solutions.
+ 
+Throughout the course, hands‑on labs reinforce learning using accessible platforms such as GitHub, Google Colab, and browser‑based tools. The course concludes with a capstone project in which learners design and implement an end‑to‑end automation solution that integrates multiple automation domains, simulating real‑world enterprise scenarios.
+ a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
