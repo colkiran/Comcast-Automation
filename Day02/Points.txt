@@ -1,0 +1,28 @@
+Assignment
+----------
+1. write a code to check the number of males and females in the emp.csv 	file
+
+	let the calculation logic be outside the decorator
+
+	decorator will calculate the time taken by the code to calculate 	it.
+
+2. create a class method to modify the class attribute in a class
+
+
+
+
+Scope of a variable
+-------------------
+1. Lexical (local)
+2. Non Local
+3. Global
+
+
+accessibility in python means not only printing the value of the variable but also be able to change its value
+
+
+
+
+
+
+
