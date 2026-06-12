@@ -1,0 +1,96 @@
+Operator Overloading
+--------------------
+
++ => add numbers or concatenation
+
++ => __add__	=> dunder_add => double underscore
+
+Magic Method = __str__
+
+__str__
+
+when ever we overload __eq__ operator then it implicitly works on __ne__
+
+a = 10
+b = 20
+
+a == b => a __eq__ b
+
+emp1 == emp2 => comparing the addresses
+
+Modification
+------------
+emp1.salary == emp2.salary
+
+
+
+if we overload __gt__ operator then it implicitly works on __lt__ also
+
+------------------------------------------------------------------------
+
+class Employee:
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+
+use the above class and overload all arithmetic operators (+, -, x, /) 
+
+
+Data Science
+------------
+dataframe1 and dataframe2
+
+df1 + df2
+
+df1 = [1, 2, 3]
+
+df2 = [4, 5, 6]
+
+df1 + df2 = [5, 7, 9]
+
+
+def __add__(self, other):
+    pass
+
+df1 + df2 = (4 + 10 + 18) => 32
+
+
+1. Inheritance
+
+2002
+class Withdraw:
+	
+   def self_cheque(self):
+      pass
+
+   def DD(self):
+      pass
+
+
+2007
+class Online(Withdraw):
+
+    def Online_trans(self):
+	pass
+   
+2012
+class UPI(Online):
+
+   def UPI_trans(self):
+      self
+
+
+
+2. Polymorphism
+3. abstraction 
+4. encapsulation
+
+
+
+
+
+
+
+
