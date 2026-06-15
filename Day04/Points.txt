@@ -1,0 +1,92 @@
+
+class F_Crickter:
+
+   def specialized(self):
+	print("Right handed bats man...."
+
+
+class S_Crickter(F_Crickter):
+   
+   def specialized(self):
+	print("Right handed pace bowler...."
+
+
+arjun = S_Crickter()
+arjun.specialized() 
+
+
+abstract method
+---------------
+abstract method is declared in abstract class that has no implementation, it acts as a blue print that sub classes must implement. This ensures consistency across subclasses while allowing each to provide its own specific behaviour
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+  
+   def make_sound(self):
+      pass
+
+class Dog(Animal):
+
+   def make_sound(self):
+      print("bow bow.....")
+
+   def command(self):
+      print("sit....")
+
+bruno = Dog()
+bruno.command()
+
+
+Polymorphism
+------------
+method changes its behaviour depending on the object that we pass
+
+Bank => Cards = debit card =>  1. Shopping card (40k per day)
+			       2. Gold Card (1 lakh per day)
+		  	       3. Platinum Card (3 lakh per day)
+
+ATM => behaviour of the atm changes depending on the card that we use
+
+
+Duck Types
+----------
+
+
+Package and Modules
+-------------------
+
+package - folder where the modules are present
+
+modules are same as libraries
+
+
+import mymodule
+
+1. python if the file is present in that location (mymodule.py)
+
+2. if it is present then compile the file (convert it into byte code, .py => .pyc)
+
+3. compares the date and time of creation of .py and .pyc files (python  expects .py file to be older than .pyc file)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
