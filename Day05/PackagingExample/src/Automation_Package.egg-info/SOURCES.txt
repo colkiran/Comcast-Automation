@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/Automation_Package/Automation.py
+src/Automation_Package/__init__.py
+src/Automation_Package.egg-info/PKG-INFO
+src/Automation_Package.egg-info/SOURCES.txt
+src/Automation_Package.egg-info/dependency_links.txt
+src/Automation_Package.egg-info/top_level.txt

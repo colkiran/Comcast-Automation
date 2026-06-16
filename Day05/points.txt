@@ -1,0 +1,75 @@
+packaging_tutorial/
+├── LICENSE
+├── pyproject.toml
+├── README.md
+├── src/
+│   └── Automation_Package/
+│       ├── __init__.py
+│       └── Automation.py
+└── tests/
+
+python -m pip install --upgrade build
+
+python -m build
+
+c:\users\kiran\downloads\*.whl
+
+(venv)c:\myproject> pip install c:\\users\\kiran\\downloads\\*.whl
+
+
+Test directory
+--------------
+tests/ is a placeholder for the test files 
+
+
+pyproject.toml => Meta data configuration file
+
+-------------------------------------------------------------------
+import module_name
+
+from module_name import CLASS, VAR, FUNC, LIST, DICT
+
+
+
+from module_name import *
+-------------------------
+
+logging module
+--------------
+you can print the message on the screen or write it into a log file
+
+Log Levels
+-----------
+DEBUG		10	Detailed diagnostic insights for developers
+
+INFO		20	General application milestones or state 			confirmations
+
+WARNING		30	Unexpected events or indicators of future 			problems
+
+ERROR		40	Serious problem preventing specific software 			features
+
+CRITICAL	50	Fatal error resulting in complete failure of 			program 
+
+
+Class RepGen:
+
+    import logging
+
+    def __init__(self, flname):
+	self.flname = flname
+
+   
+   def readData(self):
+	self.gender = 
+	self.dept = 
+	self.desig = 
+	self.salary = 
+
+   def GenReport(self, option):
+	
+
+
+
+
+
+
