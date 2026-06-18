@@ -1,0 +1,20 @@
+Numpy
+Pandas
+Openpyxl
+
+logging.info(f"Columns in raw data: {raw_df.columns.tolist()}")
+logging.info(f"Successfully automated pipeline. Output saved to {output_path}")
+
+
+def load_data(df: pd.DataFrame, output_path: str) -> None:
+
+def apply_business_rules(df: pd.DataFrame) -> pd.DataFrame:
+
+
+CI / CD
+
+Schedule a pipeline
+
+cloud foundry
+
+
