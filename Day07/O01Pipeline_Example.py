@@ -25,7 +25,7 @@ def apply_business_rules(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def filter_records(df: pd.DataFrame) -> pd.DataFrame:
-    return df[df['status']]
+    return df[df['status'] == 'Active']
 
 def load_data(df: pd.DataFrame, output_path: str) -> None:
     df.to_csv(output_path, index=False)
@@ -34,7 +34,7 @@ def load_data(df: pd.DataFrame, output_path: str) -> None:
 def run_pipeline():
     try:
         raw_data_path = "raw_input.csv"
-        processed_data_path = f"output_{datetime.now().strftime('')}.csv"
+        processed_data_path = f"output_{datetime.now().strftime('%Y%m%d')}.csv"
 
         raw_df = extract_data(raw_data_path)
 
@@ -44,6 +44,7 @@ def run_pipeline():
             .pipe(apply_business_rules)
             .pipe(filter_records)
         )
+
         load_data(final_df, processed_data_path)
 
     except Exception as e:
