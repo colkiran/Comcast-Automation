@@ -1,0 +1,21 @@
+Topics covered in pytest module
+	Pytest Framework 
+		Pytest Overview
+			Introduction to pytest
+			Installing pytest
+
+			Test Discovery
+				How pytest discovers tests
+				Naming conventions for tests
+			
+			xUnit Style Setup and Teardown
+				Understanding setup and teardown in pytest
+			
+			Test Fixtures
+				Creating and using fixtures
+
+		Parameterizing Tests
+			Running tests with different inputs
+
+			Assert Statements and Exceptions
+				Writing assert statements
