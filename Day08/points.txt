@@ -1,0 +1,113 @@
+Schedule a pipeline
+--------------------
+1. Time based scheduling
+   The most common method it runs workflows at fixed intervals regardless of the 
+   external activity.
+
+2. Event based scheduling
+   Instead of waiting for a clock to strike these pipelines wait for a specific external 
+   event or signal to occur.
+
+3. Dependency based scheduling
+   Pipelines are triggered as part of a larger interconnected workflow (often called DAG 
+   Directed Acyclic Graph).
+
+4. Hybrid scheduling
+   Combines time based triggers with conditional logic or rules.
+
+5. On demand scheduling
+   Not a automated schedule but a core method of running pipelines.
+
+Most of the scheduling is done the cloud environment.
+
+schedule module 
+
+
+CI / CD
+--------
+Continuous Integration / Continuous Deployment (Delivery)
+
+CI -> is the automated process of frequently merging code changes from multiple developers into a shared repository
+
+Every time the code is saved and pushed to a version control system (GitHub, GitLab) automated system builds the application and run tests
+
+It prevents integration nightmares by caching bugs conflicts and error immediately ensuring the codebase is always stable
+
+CD -> takes over right after CI finishes. It comes in two variations
+
+Delivery -> Code changes are automatically built, tested and prepped for a release. However the final push to the production requires a manual click or approval by a human.
+
+Deployment -> Every code changes that passes the automated tests goes through the entire pipeline and is automatically deployed to the production environment(to end users) without any human intervention.
+
+CI Workflow
+-----------
+
+Developer write and commits the code
+CI tools build the application
+Automated tests are executed
+if issue occurs -> 'Problem is detected' -> developer fixes the code
+if successful ->'Everything OK' -> code is merged
+Application is ready for deployment
+
+
+CI/CD worlflow
+
+CI performs build and test
+Code moves to Acceptance testing
+deployed to staging environment
+further validation is done
+continuous delivery manual deployment to production
+continuous deployment automatic deployment to production
+smoke test validates production release
+
+
+Cloud foundry
+-------------
+PAAS -> Platform as a Service
+
+
+Packaging
+----------
+python source code 
+
+build your application code dependencies and configuration into a distributable unit
+(python wheel, Docker image, Jar file)
+
+python -> setup.py or pip wheel creates a package
+
+Docker -> docker build create an image with code  + environment
+
+
+API Automation
+--------------
+Automation interactions with REST, GraphQL, SOAP using scripts or tools
+
+Data exchange and workflow integration
+
+Automating finance reconciliation  by calling a REST API with requests in python
+
+using Pytest + requests to validate API endpoints with authentication  headers
+
+
+RPA (Robotic Process Automation)
+--------------------------------
+Automating repetitive tasks at UI level (clicking of button, filling forms, copying data between apps)
+
+UiPath / Automation Anywhere bot logs into SAP, extracts reports and emails them
+Automating invoice entry by mimicking keystrokes in a legacy desktop app.
+
+useful when apis don't exist or system are too old to interact directly.
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
